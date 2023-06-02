@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfc;;
+    font-family: Verdana, Geneva, Tahoma, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(179, 80, 0);
+    margin: auto;
+    max-width: 70vw;
+}
+
+img{
+    width: 400px;
+}
+
+ul{
+    line-height: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(96, 9, 177);
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+footer{
+    font-size: smaller;
+}
