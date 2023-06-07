@@ -1,10 +1,20 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 body{
     display: flex;
     flex-direction: column;
     background-color: #fcfcfc;;
     font-family: Verdana, Geneva, Tahoma, monospace;
-    margin: auto;
-    max-width: 70vw;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
 }
 
 h1, h3, h4{
@@ -12,7 +22,8 @@ h1, h3, h4{
 }
 
 img{
-    width: 500px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 ul, ol{
@@ -20,19 +31,45 @@ ul, ol{
     text-align: justify;
 }
 
-a{
+.general-link{
     text-decoration: none;
     color: blueviolet;
 }
-a:visited{
+.general-link:visited{
     text-decoration: none;
-    color: rgb(96, 9, 177);
+    color: blueviolet;
 }
-a:hover{
+.general-link:hover{
     text-decoration: underline;
-    color: brown;
+    color:  rgb(179, 80, 0);
+}
+
+button{
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, monospace;
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.btn-link{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 footer{
-    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
 }
