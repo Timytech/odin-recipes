@@ -11,21 +11,27 @@ body{
     font-family: Verdana, Geneva, Tahoma, monospace;
     font-weight: bold; 
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 60vw;
+    height: 100vh;
+    padding: 0;
 }
 
 h1{
     color: rgb(179, 80, 0);
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .container{
+    flex: 1;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-img{
-    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/polina.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-color: #fcfcfc;
+    padding: 20px;
 }
 
 ul{
