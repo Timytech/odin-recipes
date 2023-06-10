@@ -11,6 +11,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, monospace;
     margin: 0 auto;
     max-width: 600px;
+    padding: 0;
+
 }
 
 h1{
@@ -22,7 +24,7 @@ h1, h3, h4{
 }
 
 img{
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
 }
 

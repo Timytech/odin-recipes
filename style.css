@@ -7,13 +7,18 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #fcfcfc;;
     font-family: Verdana, Geneva, Tahoma, monospace;
     font-weight: bold; 
     margin: 0 auto;
-    max-width: 60vw;
+    max-width: 600px;
     height: 100vh;
     padding: 0;
+}
+
+hr {
+    max-width: 600px;
 }
 
 h1{
@@ -27,16 +32,16 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/images/polina.jpg);
-    background-size: cover;
-    background-blend-mode: hard-light;
-    background-color: #fcfcfc;
+    justify-content: center;
     padding: 20px;
+    max-width: 600px;
 }
 
 ul{
     line-height: 3rem;
     list-style-type: square;
+    margin: 0;
+    padding: 0;
 }
 
 .general-link{
