@@ -7,25 +7,38 @@
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #fcfcfc;;
     font-family: Verdana, Geneva, Tahoma, monospace;
     margin: 0 auto;
-    max-width: 600px;
+    width: 100vw;
+    height: 100vh;
     padding: 0;
+}
 
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+
+h1, h3, h4{
+    margin: 0;
+    color: rgb(179, 80, 0);
 }
 
 h1{
     text-align: center;
 }
 
-h1, h3, h4{
-    color: rgb(179, 80, 0);
-}
-
 img{
     max-width: 400px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 ul, ol{
@@ -72,6 +85,5 @@ button{
 }
 
 footer{
-    margin-bottom: 50px;
     text-align: center;
 }

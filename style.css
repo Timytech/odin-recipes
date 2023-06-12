@@ -8,17 +8,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #fcfcfc;;
     font-family: Verdana, Geneva, Tahoma, monospace;
     font-weight: bold; 
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 100vw;
     height: 100vh;
     padding: 0;
-}
-
-hr {
-    max-width: 600px;
 }
 
 h1{
@@ -82,6 +79,6 @@ button{
 }
 
 footer{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
